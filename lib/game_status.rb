@@ -51,6 +51,5 @@ end
 
 def winner(board)
   winning_player = won?(board)
-  if
   end
 end
