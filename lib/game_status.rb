@@ -17,3 +17,9 @@ WIN_COMBINATIONS = [
 
 def won?
 end
+
+def full?
+end
+
+def draw?
+end
