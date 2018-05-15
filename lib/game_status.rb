@@ -49,7 +49,7 @@ def over?(board)
   full?(board) || won?(board) || draw?(board)
 end
 
-def winner
+def winner(board)
   winning_player = won?(board)
   if
   end
