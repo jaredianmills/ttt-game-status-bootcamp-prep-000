@@ -37,8 +37,8 @@ end
 
 def full?(board)
   board.all? do |marker|
-    
-  end  
+    marker == "X" || marker == "O"
+  end
 end
 
 def draw?
