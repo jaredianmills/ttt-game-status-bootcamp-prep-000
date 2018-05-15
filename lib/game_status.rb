@@ -51,7 +51,7 @@ end
 
 def winner(board)
   winning_positions = won?(board)
-  winning_player = ""
+  winning_player = nil
   winning_positions.all? do |index|
     if board[index] == "X"
       winning_player = "X"
