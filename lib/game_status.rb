@@ -52,12 +52,13 @@ end
 def winner(board)
   winning_player = nil
   if won?(board)
-  winning_positions = won?(board)
-  winning_positions.all? do |index|
-    if board[index] == "X"
-      winning_player = "X"
-    elsif board[index] == "O"
-      winning_player = "O"
+    winning_positions = won?(board)
+    winning_positions.all? do |index|
+      if board[index] == "X"
+        winning_player = "X"
+      elsif board[index] == "O"
+        winning_player = "O"
+      end
     end
   end
   winning_player
