@@ -51,7 +51,7 @@ end
 
 def winner(board)
   winning_positions = won?(board)
-  winning_positions.any? do |index|
+  winning_positions.include? do |index|
     if board[index] == "X"
       return "X"
     elsif board[index] == "O"
