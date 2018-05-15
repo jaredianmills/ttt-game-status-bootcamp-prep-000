@@ -35,7 +35,8 @@ def won?(board)
   winner
 end
 
-def full?
+def full?(board)
+  
 end
 
 def draw?
