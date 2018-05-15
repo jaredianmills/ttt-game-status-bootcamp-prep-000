@@ -36,7 +36,8 @@ def won?(board)
 end
 
 def full?(board)
-  
+  board.all? do|marker|
+  end  
 end
 
 def draw?
