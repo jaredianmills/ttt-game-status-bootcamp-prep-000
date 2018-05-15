@@ -50,5 +50,6 @@ def over?(board)
 end
 
 def winner
+  winning_player = won?(board)
   
 end
