@@ -29,7 +29,7 @@ def won?(board)
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combination
     else
-      false
+      return false
     end
   end
 end
@@ -39,4 +39,3 @@ end
 
 def draw?
 end
-
