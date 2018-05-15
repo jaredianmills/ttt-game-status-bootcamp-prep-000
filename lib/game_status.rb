@@ -59,4 +59,5 @@ def winner(board)
       winning_player = "O"
     end
   end
+  winning_player
 end
