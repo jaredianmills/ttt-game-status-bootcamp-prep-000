@@ -53,7 +53,7 @@ def winner(board)
   winning_player = ""
   winning_positions = won?(board)
   winning_positions.any? do |index|
-  
-  
+  end
+
   end
 end
