@@ -51,11 +51,12 @@ end
 
 def winner(board)
   winning_positions = won?(board)
+  winning_player = ""
   winning_positions.all? do |index|
     if board[index] == "X"
-      return "X"
+      winning_player = "X"
     elsif board[index] == "O"
-      return "O"
+      winning_player = "O"
     end
   end
 end
