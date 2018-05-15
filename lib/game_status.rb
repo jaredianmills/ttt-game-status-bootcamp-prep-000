@@ -52,7 +52,7 @@ end
 def winner(board)
   winning_positions = won?(board)
   winning_player = nil
-  winning_positions.all? do |index|
+  winning_positions.each do |index|
     if board[index] == "X"
       winning_player = "X"
     elsif board[index] == "O"
