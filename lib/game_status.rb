@@ -55,5 +55,4 @@ def winner(board)
   winning_positions.any? do |index|
   end
 
-  end
 end
